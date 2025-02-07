@@ -1,0 +1,65 @@
+Department,Year,Course
+CSE,1,Mathematics - I
+CSE,1,Physics for Computing
+CSE,1,Programming in C
+CSE,1,Data Structures
+CSE,2,Object-Oriented Programming
+CSE,2,Computer Networks
+CSE,2,Operating Systems
+CSE,2,Database Management Systems
+CSE,3,Algorithms and Complexity
+CSE,3,Software Engineering
+CSE,3,Machine Learning Basics
+CSE,3,Web Technologies
+CSE,4,Artificial Intelligence
+CSE,4,Cloud Computing
+CSE,4,Cyber Security
+CSE,4,Final Year Project
+IT,1,Mathematics - I
+IT,1,Digital Logic Design
+IT,1,Programming in Python
+IT,1,Data Structures
+IT,2,Object-Oriented Programming
+IT,2,Database Management Systems
+IT,2,Web Development
+IT,2,Software Testing
+IT,3,Mobile Application Development
+IT,3,Data Analytics
+IT,3,Internet of Things (IoT)
+IT,3,Network Security
+IT,4,Blockchain Technology
+IT,4,AI and Deep Learning
+IT,4,Cloud Computing
+IT,4,Final Year Project
+ECE,1,Mathematics - I
+ECE,1,Basic Electrical Engineering
+ECE,1,Signals and Systems
+ECE,1,Electronic Devices
+ECE,2,Digital Electronics
+ECE,2,Analog Circuits
+ECE,2,Communication Systems
+ECE,2,Microprocessors & Microcontrollers
+ECE,3,Digital Signal Processing
+ECE,3,VLSI Design
+ECE,3,Embedded Systems
+ECE,3,Optical Communication
+ECE,4,Wireless Communication
+ECE,4,Robotics and Automation
+ECE,4,Internet of Things (IoT)
+ECE,4,Final Year Project
+EEE,1,Mathematics - I
+EEE,1,Engineering Physics
+EEE,1,Circuit Theory
+EEE,1,Basic Electrical Machines
+EEE,2,Control Systems
+EEE,2,Power Systems
+EEE,2,Digital Electronics
+EEE,2,Microprocessors and Controllers
+EEE,3,Power Electronics
+EEE,3,Electrical Machines
+EEE,3,Renewable Energy Systems
+EEE,3,Electric Drives and Control
+EEE,4,High Voltage Engineering
+EEE,4,Smart Grid Technology
+EEE,4,Electrical Vehicle Technology
+EEE,4,Final Year Project

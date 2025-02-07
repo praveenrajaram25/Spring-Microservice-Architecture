@@ -1,0 +1,13 @@
+
+  
+  CREATE TABLE `student` (
+  `STUDENT_CODE` int NOT NULL AUTO_INCREMENT,
+  `name` varchar(255) DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  `batch` varchar(255) DEFAULT NULL,
+  `year` varchar(255) DEFAULT NULL,
+  `department` varchar(255) DEFAULT NULL,
+  `fees_status` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`STUDENT_CODE`),
+  UNIQUE KEY `STUDENT_CODE_UNIQUE` (`STUDENT_CODE`)
+) ENGINE=InnoDB AUTO_INCREMENT=41 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

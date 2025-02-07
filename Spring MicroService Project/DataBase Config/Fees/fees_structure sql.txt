@@ -1,0 +1,67 @@
+CREATE TABLE `fees_history` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `student_code` varchar(255) DEFAULT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `departmant` varchar(255) DEFAULT NULL,
+  `year` varchar(255) DEFAULT NULL,
+  `FEES_AMT` int DEFAULT NULL,
+  `PAID_AMT` int DEFAULT NULL,
+  `PENDING_AMT` int DEFAULT NULL,
+  `fees_paid` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+CREATE TABLE `fees_structure` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `department` varchar(255) DEFAULT NULL,
+  `type` varchar(255) DEFAULT NULL,
+  `year` varchar(255) DEFAULT NULL,
+  `COLLEGE_FEES` int NOT NULL,
+  `HOSTEL_FEES` int DEFAULT NULL,
+  `BUS_FEES` int DEFAULT NULL,
+  `MISCELLANEOUS_FEES` int NOT NULL,
+  `TOTAL_FEES` int DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+
+
+INSERT INTO fees_structure (Department, Type, Year, College_Fees, Hostel_Fees, Bus_Fees, Miscellaneous_Fees, Total_Fees) VALUES
+('CSE', 'DayScholar', '1', 100000, 0, 25000, 5000, 130000),
+('CSE', 'Hosteller', '1', 100000, 80000, 0, 5000, 185000),
+('CSE', 'DayScholar', '2', 100000, 0, 25000, 5000, 130000),
+('CSE', 'Hosteller', '2', 100000, 80000, 0, 5000, 185000),
+('CSE', 'DayScholar', '3', 100000, 0, 25000, 5000, 130000),
+('CSE', 'Hosteller', '3', 100000, 80000, 0, 5000, 185000),
+('CSE', 'DayScholar', '4', 100000, 0, 25000, 5000, 130000),
+('CSE', 'Hosteller', '4', 100000, 80000, 0, 5000, 185000),
+
+('IT', 'DayScholar', '1', 90000, 0, 22000, 5000, 117000),
+('IT', 'Hosteller', '1', 90000, 75000, 0, 5000, 170000),
+('IT', 'DayScholar', '2', 90000, 0, 22000, 5000, 117000),
+('IT', 'Hosteller', '2', 90000, 75000, 0, 5000, 170000),
+('IT', 'DayScholar', '3', 90000, 0, 22000, 5000, 117000),
+('IT', 'Hosteller', '3', 90000, 75000, 0, 5000, 170000),
+('IT', 'DayScholar', '4', 90000, 0, 22000, 5000, 117000),
+('IT', 'Hosteller', '4', 90000, 75000, 0, 5000, 170000),
+
+('ECE', 'DayScholar', '1', 95000, 0, 23000, 5000, 123000),
+('ECE', 'Hosteller', '1', 95000, 78000, 0, 5000, 178000),
+('ECE', 'DayScholar', '2', 95000, 0, 23000, 5000, 123000),
+('ECE', 'Hosteller', '2', 95000, 78000, 0, 5000, 178000),
+('ECE', 'DayScholar', '3', 95000, 0, 23000, 5000, 123000),
+('ECE', 'Hosteller', '3', 95000, 78000, 0, 5000, 178000),
+('ECE', 'DayScholar', '4', 95000, 0, 23000, 5000, 123000),
+('ECE', 'Hosteller', '4', 95000, 78000, 0, 5000, 178000),
+
+('EEE', 'DayScholar', '1', 92000, 0, 24000, 5000, 121000),
+('EEE', 'Hosteller', '1', 92000, 77000, 0, 5000, 174000),
+('EEE', 'DayScholar', '2', 92000, 0, 24000, 5000, 121000),
+('EEE', 'Hosteller', '2', 92000, 77000, 0, 5000, 174000),
+('EEE', 'DayScholar', '3', 92000, 0, 24000, 5000, 121000),
+('EEE', 'Hosteller', '3', 92000, 77000, 0, 5000, 174000),
+('EEE', 'DayScholar', '4', 92000, 0, 24000, 5000, 121000),
+('EEE', 'Hosteller', '4', 92000, 77000, 0, 5000, 174000);
+
+
+commit;

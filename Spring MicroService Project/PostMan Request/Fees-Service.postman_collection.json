@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "6e6c23ed-3a37-4d0b-a1d2-4780849f0726",
+		"name": "Fees-Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "41817935"
+	},
+	"item": [
+		{
+			"name": "Fees Structure",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": "http://localhost:8082/fees/feestructure"
+			},
+			"response": []
+		},
+		{
+			"name": "Student Fees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/fees/savefees?studentCode=1&name=John Doe&department=CSE&year=1&type=DayScholar",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"fees",
+						"savefees"
+					],
+					"query": [
+						{
+							"key": "studentCode",
+							"value": "1"
+						},
+						{
+							"key": "name",
+							"value": "John Doe"
+						},
+						{
+							"key": "department",
+							"value": "CSE"
+						},
+						{
+							"key": "year",
+							"value": "1"
+						},
+						{
+							"key": "type",
+							"value": "DayScholar"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pay Fees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/fees/payfees?studentCode=9&department=CSE&year=3&amount=40000",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"fees",
+						"payfees"
+					],
+					"query": [
+						{
+							"key": "studentCode",
+							"value": "9"
+						},
+						{
+							"key": "department",
+							"value": "CSE"
+						},
+						{
+							"key": "year",
+							"value": "3"
+						},
+						{
+							"key": "amount",
+							"value": "40000"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

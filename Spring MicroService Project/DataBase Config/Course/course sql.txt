@@ -1,0 +1,8 @@
+CREATE TABLE `course` (
+  `ID` int NOT NULL AUTO_INCREMENT,
+  `department` varchar(255) DEFAULT NULL,
+  `year` varchar(255) DEFAULT NULL,
+  `course` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`ID`),
+  UNIQUE KEY `ID_UNIQUE` (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=65 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci

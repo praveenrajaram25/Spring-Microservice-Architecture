@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "d0ea6595-2661-4aea-ba17-60b34f100634",
+		"name": "Student-Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "41817935"
+	},
+	"item": [
+		{
+			"name": "Admit Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\r\n    \"name\": \"Mani\",\r\n    \"type\": \"DayScholar\",\r\n    \"batch\": \"2017-2020\",\r\n    \"year\": \"3\",\r\n    \"department\": \"CSE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:8080/student/admit"
+			},
+			"response": []
+		},
+		{
+			"name": "Terminate Student",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/student/terminate?id=22",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"student",
+						"terminate"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "22"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Students",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8080/student/studentdata"
+			},
+			"response": []
+		},
+		{
+			"name": "Get Student Details",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "Student Profile",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

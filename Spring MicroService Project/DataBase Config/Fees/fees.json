@@ -1,0 +1,162 @@
+[
+  {
+    "Department": "CSE",
+    "Type": "DayScholar",
+    "Year": "1",
+    "College_Fees": 100000,
+    "Hostel_Fees": 0,
+    "Bus_Fees": 25000,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 130000
+  },
+  {
+    "Department": "CSE",
+    "Type": "Hosteller",
+    "Year": "1",
+    "College_Fees": 100000,
+    "Hostel_Fees": 80000,
+    "Bus_Fees": 0,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 185000
+  },
+  {
+    "Department": "CSE",
+    "Type": "DayScholar",
+    "Year": "2",
+    "College_Fees": 100000,
+    "Hostel_Fees": 0,
+    "Bus_Fees": 25000,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 130000
+  },
+  {
+    "Department": "CSE",
+    "Type": "Hosteller",
+    "Year": "2",
+    "College_Fees": 100000,
+    "Hostel_Fees": 80000,
+    "Bus_Fees": 0,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 185000
+  },
+  {
+    "Department": "CSE",
+    "Type": "DayScholar",
+    "Year": "3",
+    "College_Fees": 100000,
+    "Hostel_Fees": 0,
+    "Bus_Fees": 25000,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 130000
+  },
+  {
+    "Department": "CSE",
+    "Type": "Hosteller",
+    "Year": "3",
+    "College_Fees": 100000,
+    "Hostel_Fees": 80000,
+    "Bus_Fees": 0,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 185000
+  },
+  {
+    "Department": "CSE",
+    "Type": "DayScholar",
+    "Year": "4",
+    "College_Fees": 100000,
+    "Hostel_Fees": 0,
+    "Bus_Fees": 25000,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 130000
+  },
+  {
+    "Department": "CSE",
+    "Type": "Hosteller",
+    "Year": "4",
+    "College_Fees": 100000,
+    "Hostel_Fees": 80000,
+    "Bus_Fees": 0,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 185000
+  },
+  {
+    "Department": "IT",
+    "Type": "DayScholar",
+    "Year": "1",
+    "College_Fees": 90000,
+    "Hostel_Fees": 0,
+    "Bus_Fees": 22000,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 117000
+  },
+  {
+    "Department": "IT",
+    "Type": "Hosteller",
+    "Year": "1",
+    "College_Fees": 90000,
+    "Hostel_Fees": 75000,
+    "Bus_Fees": 0,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 170000
+  },
+  {
+    "Department": "IT",
+    "Type": "DayScholar",
+    "Year": "2",
+    "College_Fees": 90000,
+    "Hostel_Fees": 0,
+    "Bus_Fees": 22000,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 117000
+  },
+  {
+    "Department": "IT",
+    "Type": "Hosteller",
+    "Year": "2",
+    "College_Fees": 90000,
+    "Hostel_Fees": 75000,
+    "Bus_Fees": 0,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 170000
+  },
+  {
+    "Department": "ECE",
+    "Type": "DayScholar",
+    "Year": "1",
+    "College_Fees": 95000,
+    "Hostel_Fees": 0,
+    "Bus_Fees": 23000,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 123000
+  },
+  {
+    "Department": "ECE",
+    "Type": "Hosteller",
+    "Year": "1",
+    "College_Fees": 95000,
+    "Hostel_Fees": 78000,
+    "Bus_Fees": 0,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 178000
+  },
+  {
+    "Department": "EEE",
+    "Type": "DayScholar",
+    "Year": "1",
+    "College_Fees": 92000,
+    "Hostel_Fees": 0,
+    "Bus_Fees": 24000,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 121000
+  },
+  {
+    "Department": "EEE",
+    "Type": "Hosteller",
+    "Year": "1",
+    "College_Fees": 92000,
+    "Hostel_Fees": 77000,
+    "Bus_Fees": 0,
+    "Miscellaneous_Fees": 5000,
+    "Total_Fees": 174000
+  }
+]
